@@ -1,3 +1,5 @@
+package ru.lesson.lessons;
+
 import static java.lang.Math.*;
 
 public class Calculate {

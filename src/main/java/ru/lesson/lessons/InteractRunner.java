@@ -1,4 +1,4 @@
-package Something;
+package ru.lesson.lessons;
 
 import java.awt.*;
 import java.io.BufferedReader;
@@ -16,6 +16,7 @@ public class InteractRunner{
          * */
             Calculator calc = new Calculator();
             String exit = "no";
+
             /*
             *@ choice номер выбранной функции
             * */
@@ -36,6 +37,7 @@ public class InteractRunner{
                 }
                 System.out.println("Enter second arg:");
                 int second = Integer.parseInt(br.readLine());
+
                 /*
                 * Выбор функции в зависимости от выбора
                 * */
@@ -54,11 +56,13 @@ public class InteractRunner{
                     calc.div(first, second);
 
                 }
+
                 /*
                 * Обнулить выбор мат действия, или не будет работать выбор
                 * */
                 choice = 0;
                 System.out.println("Result: " + calc.getResult());
+
                 /*
                 * Очистить или сохранить результат
                 * @ choiceEnd Храние выбора

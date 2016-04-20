@@ -1,4 +1,4 @@
-package Something;
+package ru.lesson.lessons;
 
 public class Calculator{
 
